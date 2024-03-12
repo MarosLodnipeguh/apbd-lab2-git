@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using System.Threading.Channels;
+
 Console.WriteLine("Hello, World!");
 for (int i = 0; i < 10; i++)
 {
@@ -17,3 +19,7 @@ static double getAvg(int[] nums)
 
     return (double) sum / nums.Length;
 }
+
+int[] tab = {1,2,3,4};
+double avg = getAvg(tab);
+Console.WriteLine(avg);
