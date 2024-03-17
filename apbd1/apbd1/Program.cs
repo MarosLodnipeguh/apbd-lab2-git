@@ -23,3 +23,17 @@ static double getAvg(int[] nums)
 int[] tab = {1,2,3,4};
 double avg = getAvg(tab);
 Console.WriteLine(avg);
+
+static double maxVal (double[] nums)
+{
+    double max = nums[0];
+    foreach (var num in nums)
+    {
+        if (num > max)
+        {
+            max = num;
+        }
+    }
+
+    return max;
+}
