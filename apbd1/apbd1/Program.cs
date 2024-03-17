@@ -24,9 +24,9 @@ int[] tab = {1,2,3,4};
 double avg = getAvg(tab);
 Console.WriteLine(avg);
 
-static double maxVal (double[] nums)
+static int maxVal (int[] nums)
 {
-    double max = nums[0];
+    int max = nums[0];
     foreach (var num in nums)
     {
         if (num > max)
