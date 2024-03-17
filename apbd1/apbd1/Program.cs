@@ -9,7 +9,7 @@ for (int i = 0; i < 10; i++)
 }
 
 
-static double getAvg(int[] nums)
+static double getAvgWeird(int[] nums)
 {
     int sum = 0;
     foreach (var num in nums)
@@ -21,7 +21,7 @@ static double getAvg(int[] nums)
 }
 
 int[] tab = {1,2,3,4};
-double avg = getAvg(tab);
+double avg = getAvgWeird(tab);
 Console.WriteLine(avg);
 
 static int maxVal (int[] nums)
